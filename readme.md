@@ -82,5 +82,5 @@ On the database VM: put 490db.service into /lib/systemd/system/
 ```
 
 ## Final Contributors:
-[Jnb176](https://github.com/Jnb176)
-[undefinedName](https://github.com/undefinedName)
+* [Jnb176](https://github.com/Jnb176)
+* [undefinedName](https://github.com/undefinedName)
