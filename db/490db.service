@@ -1,0 +1,9 @@
+[Unit]
+Description=SystemD Rabbit Listener
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/php -f /home/hsm24mq/git/db/finalServer2.php
+
+[Install]
+WantedBy=multi-user.target
