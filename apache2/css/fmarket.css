@@ -1,0 +1,229 @@
+head {
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+body {
+	margin: 0;
+	padding-top: 75px;
+	padding-bottom: 50px;
+}
+
+.feather {
+	width: 16px;
+	height: 16px;
+	vertical-align: text-bottom;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #00FF00;
+  color: grey;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+/* SIDE PROFILE NAV */
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 35px;
+	left: 0;
+	z-index: 100;
+	padding: 48px 0 0;
+	box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+	position: relative;
+	top:25px;
+	height: calc(100vh - 48px);
+	padding-top: .5rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.sidebar .nav-link{
+	font-weight: 500;
+	color: #333;
+}
+
+.sidebar .nav-link .feather {
+	margin-right: 4px;
+	color: #999;
+}
+
+.sidebar .nav-link.active{
+	color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+[role="main"] {
+	padding-top: 20px; /* Space for fixed navbar */
+}
+
+@media (min-width: 768px) {
+	[role="main"] {
+		padding-top: 12px; /* Space for fixed navbar */
+	}
+}
+
+li {
+	list-style-type: none;
+	padding-top: 15px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	transition: all 0.5s;
+}
+
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100vw;
+	background-color:#343a40;   
+	color: white;
+	text-align: center;
+	height: 35px;
+}
+
+.profilenav {
+        overflow: hidden;
+        background-color: inherit;
+        position: static;
+        transition: all 0.5s;
+	margin-top: 0px;
+	width: 100vw;
+}
+
+
+.profilenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: #2196F3;
+	display: block;
+}
+
+.profilenav a:hover {
+	color: #064579;
+}
+
+#logo {
+	font-family: 'Hind', sans-serif;
+	font-size: 30px;
+	letter-spacing: -2px;
+	text-shadow: 1px 1px 2px #c4c4c4;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 10px;
+	margin-top: -7px;
+}
+
+.login {
+	font-size: 16px;
+}
+
+.userinfo {
+	margin-top: 0vh;
+	margin-left: 25vw;
+}
+
+.logForm {
+	margin-left: 30vw;
+}
+
+input[type=username], 
+input[type=password], 
+input[type=email], 
+input[type=zip] {
+	width: 35%;
+	padding: 12px 15px;
+	margin: 6px 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.button{
+	display: inline-block;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: gray;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s
+}
+
+.button:hover {
+	opacity: 0.8;
+}
+
+/* ----- Search Page ------ */
+.collapsible {
+	background-color: gray;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100vw;
+	border: none;
+	text-align: left;
+	outline:none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.collapsible:hover {
+	background-color: darkgray;
+}
+
+.content {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
+}
+
+.collapsible:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.collapsible.active:after {
+	content: "\2212";
+}
+
