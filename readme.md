@@ -27,7 +27,7 @@ DMZ VM(s): curl
 ```
 ## MySQL Database
 Make sure mysql-server and rabbitmq-server is installed.
-1. Create a directory and git clone https://github.com/undefinedName/IT490.git for the db folder.
+1. Create a directory and git clone https://github.com/undefinedName/SYSTEMS-INTEGRATION-PROJECT.git for the db folder.
 2. Start:  mysql -u root -p
 3. If this is the first time using mysql, set a password for root.
 4. Create a database: CREATE DATABASE [name];
@@ -45,7 +45,7 @@ mysql -u username -p [db name] < [filename.sql]
  
 ## DMZ Server
 Make sure rabbitmq-server and PHP-CURL is installed
-1. Create a directory and git clone https://github.com/undefinedName/IT490.git for the dmz folder.
+1. Create a directory and git clone https://github.com/undefinedName/SYSTEMS-INTEGRATION-PROJECT.git for the dmz folder.
 2. Install : rabbitmq-plugins enable rabbitmq_management
 3. More detailed info on how to use rabbitmq: https://www.rabbitmq.com/management.html
 4. Go to http://localhost:15672/
@@ -56,7 +56,7 @@ Make sure rabbitmq-server and PHP-CURL is installed
 Make sure apache2 is installed
 1. Create a directory for your website files
 sudo mkdir -p /var/www/html/website.com/{public_html,log,backups}
-2. Git clone https://github.com/undefinedName/IT490.git for the apache2 folder.
+2. Git clone https://github.com/undefinedName/SYSTEMS-INTEGRATION-PROJECT.git for the apache2 folder.
 3.  Move 490test.com.conf to /etc/apache2/sites-available/website.com.conf
 4. Disable the default virtual host : sudo a2dissite *default
 5. Enable the website with: sudo a2ensite website.com.conf
